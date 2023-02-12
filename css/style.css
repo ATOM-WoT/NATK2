@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Georgia, "Times New Roman", Times, serif !important;
+ font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 
 html, body {
@@ -75,6 +75,7 @@ header .navigation .container ul li {
   width: 50%;
   font-size: 3.3vw;
   margin-left: 5vW;
+  font-weight:600;
 }
 .main-photo .main-text h1 {
   text-transform: uppercase;
@@ -161,7 +162,7 @@ main {
 
 .link_to_other_pages {
   background-color: rgba(0, 111, 166, 0.1215686275);
-  padding-bottom: 3%;
+  padding: 3% 0;
 }
 .link_to_other_pages .link_to_other_pages_container_wrap {
   display: flex;
@@ -169,6 +170,7 @@ main {
 }
 .link_to_other_pages .link_to_other_pages_container_wrap .link_to_other_pages_container_wrap_text {
   text-align: center;
+  
 }
 
 .block {
