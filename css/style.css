@@ -1,4 +1,4 @@
-harset "UTF-8";
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -268,7 +268,6 @@ main {
   font-weight: 600;
 }
 .zero-block .container .zero-block_right_part .zero-block_information .wrap .zero_block_poem .zero_block_autor {
-  margin-right: 20%;
   display: flex;
   justify-content: right;
   text-decoration: underline;
@@ -324,7 +323,7 @@ main {
   width: 50%;
 }
 .modal-body .home-page_form .home-page_form_firstpart .home-page_form-person_information .home-page_form_file-text {
-  font-size: 1vw;
+  font-size: 18px;
 }
 .modal-body .home-page_form .home-page_form_firstpart input {
   border-radius: 20px;
