@@ -1,0 +1,71 @@
+body{
+    font-family:sans-serif;
+}
+h1{
+    text-align:center;
+    color:blue;
+    margin: 30px 0 50px;
+
+}
+.gallery{
+    margin: 2% 8%;
+
+}
+.gallery img{
+    width:25%;
+    padding:50px;
+    filter: grayscale(100%);
+    transition:1s;
+
+
+}
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.6);
+
+}
+
+
+.navigation_main_information {
+  width: 100%;
+  position: fixed;
+  background: rgb(2, 43, 105) !important;
+  height: 90px;
+  z-index: 10;
+}
+.navigation_main_information .container .navigation_main_information_text {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.navigation_main_information .container .navigation_main_information_text .logo {
+  line-height: 90px;
+}
+.navigation_main_information .container .navigation_main_information_text .logo a {
+  color: white;
+  text-decoration: none;
+}
+.navigation_main_information .container .navigation_main_information_text ul {
+  display: flex;
+  line-height: 90px;
+}
+.navigation_main_information .container .navigation_main_information_text ul li {
+  list-style-type: none;
+  width: 150px;
+}
+.navigation_main_information .container .navigation_main_information_text ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.navigation_main_information .container .navigation_main_information_text .feedback {
+  line-height: 90px;
+}
+.navigation_main_information .container .navigation_main_information_text .feedback a {
+  color: white;
+  text-decoration: none;
+}
+.navigation_main_information .container .navigation_main_information_text .more_inf {
+  line-height: 90px;
+  color: white;
+  border: solid 1px #fff;
+}
