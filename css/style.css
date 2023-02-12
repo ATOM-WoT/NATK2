@@ -257,7 +257,6 @@ main {
   padding-bottom: 3%;
 }
 .zero-block .container .zero-block_right_part .zero-block_information .wrap .zero-block_information_element-animation h2 {
-  font-family: EB Garamond;
   font-size: 3vw;
   color: #2c234d;
   font-weight: 600;
@@ -265,7 +264,7 @@ main {
 .zero-block .container .zero-block_right_part .zero-block_information .wrap .zero_block_poem {
   color: #2C234D;
   font-family: "EB Garamond", Sans-serif;
-  font-size: 20px;
+  font-size: 1.3vw;
   font-weight: 600;
 }
 .zero-block .container .zero-block_right_part .zero-block_information .wrap .zero_block_poem .zero_block_autor {
@@ -285,7 +284,7 @@ main {
   padding-right: 6%;
   width: 50%;
   margin: 2rem 0;
-  font-size: 20px;
+  font-size: 1.3vW;
   text-align: justify;
   word-spacing: -2px;
   /* Скроем элемент в начальном состоянии */
