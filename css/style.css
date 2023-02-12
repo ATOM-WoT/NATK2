@@ -324,7 +324,7 @@ main {
   width: 50%;
 }
 .modal-body .home-page_form .home-page_form_firstpart .home-page_form-person_information .home-page_form_file-text {
-  font-size: 18px;
+  font-size: 1vw;
 }
 .modal-body .home-page_form .home-page_form_firstpart input {
   border-radius: 20px;
