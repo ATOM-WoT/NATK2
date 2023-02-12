@@ -91,7 +91,7 @@
 Решением Совета Народных Комисаров (правительство СССР) от 25 сентября 1929 г. №1276 был образован Новосибирский машиностроительный техникум, который находился в подчинении Народного комиссариата тяжелой промышленности.</span>
             </div>
             <div class="zero-block_information_img">  
-                        <img src="img/home-zero_block.png" alt=""></div>
+                        <img src="img/home_zero_block.jfif" alt=""></div>
 
           </div>
         </div>
@@ -167,14 +167,14 @@ for (let elm of elements) {
       <div class="wrap">
         <div class="home_share_information_container_wrap">
           <div class="home_share_information_container_wrap_text">
-            <h3>Поделитесь  </h3>
+            <h3>Поделитесь информацией </h3>
           <p>We want you to be part of our museums, experience its beauty and this is why we offer several ways to let you engage with us to help maintain and develop the museums. Whether you are a student aspiring a career in social work or a business person who loves to preserve and care about the local history or a couple looking to get married in an awesome traditional way. We have everything for all of you. Become a member today!</p></div>
           
         </div>
         <div class="form-button">
   
           <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <button type="button" class="btn btn-primary share_button" data-bs-toggle="modal" data-bs-target="#exampleModal">
        Поделиться информацией 
       </button>
       
@@ -187,24 +187,24 @@ for (let elm of elements) {
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <form action="" class="home-page_form" id="home-page_form_email">
+              <form action="" method="post" class="home-page_form" id="home-page_form_email">
                 <div class="home-page_form_firstpart">
                    <div class="home-page_form-person_information"> 
                     <div class="home-page_form_file-text">Имя  </div> 
-                <input type="text">
+                <input id="username" required name="username" type="text">
               </div>
                <div class="home-page_form-person_information">
                 <div class="home-page_form_file-text">Ваша электронная почта  </div> 
-                <input type="text"></div>
+                <input id="email"  name="email" type="email" required ></div>
               </div>
                
                 <div class="home-page_form_message">
                   <div class="home-page_form_file-text">Напишите ваше сообщение  </div> 
-               <textarea name="" id="" ></textarea>
+               <textarea id="message" required name="message" id="" ></textarea>
               </div>
               <div class="home-page_form_file">
                <!--<div class="home-page_form_file-text">Прикрепите ваш файл  </div> -->
-                <input type="file">
+                <input required type="file">
               </div>
                 <div class="home-page_form_button">
                   <input type="submit" value="ОТПРАВИТЬ ">
@@ -246,4 +246,3 @@ for (let elm of elements) {
 
 </body>
 </html>
-
