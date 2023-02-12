@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
- font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 
 html, body {
@@ -28,6 +28,7 @@ header .navigation .container .logo {
 header .navigation .container .logo a {
   color: white;
   text-decoration: none;
+  font-weight: 600;
 }
 header .navigation .container .feedback {
   line-height: 50px;
@@ -75,7 +76,6 @@ header .navigation .container ul li {
   width: 50%;
   font-size: 3.3vw;
   margin-left: 5vW;
-  font-weight:600;
 }
 .main-photo .main-text h1 {
   text-transform: uppercase;
@@ -92,6 +92,7 @@ header .navigation .container ul li {
 .main-photo .main-text span {
   display: inline-block;
   opacity: 0;
+  font-weight: 600;
   filter: blur(4px);
   padding-bottom: 3%;
 }
@@ -170,7 +171,10 @@ main {
 }
 .link_to_other_pages .link_to_other_pages_container_wrap .link_to_other_pages_container_wrap_text {
   text-align: center;
-  
+}
+.link_to_other_pages .link_to_other_pages_container_wrap .link_to_other_pages_container_wrap_text h3 {
+  font-weight: 600;
+  color: #2c234d;
 }
 
 .block {
@@ -299,6 +303,15 @@ main {
 .home_share_information_block {
   margin: 2% 0;
   font-size: 1.2vW;
+}
+
+.home_share_information_block {
+  margin: 5% 0;
+}
+.home_share_information_block .home_share_information_container_wrap .home_share_information_container_wrap_text h3 {
+  text-align: center;
+  color: #2c234d;
+  font-weight: 600;
 }
 
 .first-block {
