@@ -322,7 +322,6 @@ main {
   font-size: 1.2vw;
   width: 50%;
 }
-
 .modal-body .home-page_form .home-page_form_firstpart input {
   border-radius: 7px;
   width: 100%;
@@ -575,7 +574,7 @@ footer .container .social_media_history-museum {
   width: 20%;
 }
 footer .container .social_media_history-museum .social_media_history-museum-header {
-  font-size: 1.6vW;
+  font-size: 1.2vW;
   margin-bottom: 3%;
 }
 footer .container .social_media_history-museum .footer_button_vk {
@@ -611,11 +610,8 @@ footer .container .social_media_history-museum .footer_button_insta img {
   width: 30px;
   margin-right: 5%;
 }
-footer .container .footer_main_inf {
-  width: 30%;
-}
 footer .container .footer_main_inf .footer_main_inf-header {
-  font-size: 1.6vW;
+  font-size: 1.2vW;
   margin-bottom: 3%;
 }
 footer .container .admin {
