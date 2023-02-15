@@ -74,7 +74,7 @@ header .navigation .container ul li {
   z-index: 4;
   min-width: 50px;
   width: 50%;
-  font-size: 3.3vw;
+  font-size: 3vw;
   margin-left: 5vW;
 }
 .main-photo .main-text h1 {
@@ -239,7 +239,6 @@ main {
 }
 .zero-block .container {
   justify-content: space-between;
-  padding: 4%;
 }
 .zero-block .container .zero-block_right_part {
   margin-right: 2%;
@@ -273,16 +272,16 @@ main {
   text-decoration: underline;
 }
 .zero-block .container .zero-block_right_part .zero-block_information .wrap .zero-block_information_img {
-  width: 50%;
+  width: 40%;
 }
 .zero-block .container .zero-block_right_part .zero-block_information .wrap .zero-block_information_img img {
   max-width: 100%;
 }
 
 .element-animation {
-  padding-right: 6%;
-  width: 50%;
-  margin: 2rem 0;
+  margin-right: 8%;
+  width: 60%;
+  margin-top: 2%;
   font-size: 1.3vW;
   text-align: justify;
   word-spacing: -2px;
@@ -305,6 +304,12 @@ main {
 
 .home_share_information_block {
   margin: 5% 0;
+}
+.home_share_information_block .home_share_information_container_wrap {
+  margin-bottom: 2%;
+}
+.home_share_information_block .home_share_information_container_wrap .home_share_information_container_wrap_text {
+  margin: 2% 0;
 }
 .home_share_information_block .home_share_information_container_wrap .home_share_information_container_wrap_text h3 {
   text-align: center;
@@ -586,12 +591,11 @@ footer .container .social_media_history-museum .footer_button_vk a {
 }
 footer .container .social_media_history-museum .footer_button_vk .footer_button_vk-bacground {
   display: flex;
-  background-color: #fff;
-  margin-right: 5%;
   border-radius: 50%;
 }
 footer .container .social_media_history-museum .footer_button_vk .footer_button_vk-bacground img {
   width: 30px;
+  margin-right: 5%;
 }
 footer .container .social_media_history-museum .footer_button_vk .footer_button_home-bacground {
   display: flex;
@@ -599,20 +603,14 @@ footer .container .social_media_history-museum .footer_button_vk .footer_button_
 }
 footer .container .social_media_history-museum .footer_button_vk .footer_button_home-bacground img {
   width: 30px;
-}
-footer .container .social_media_history-museum .footer_button_insta {
-  margin-bottom: 5%;
-}
-footer .container .social_media_history-museum .footer_button_insta a {
-  color: white;
-}
-footer .container .social_media_history-museum .footer_button_insta img {
-  width: 30px;
   margin-right: 5%;
 }
 footer .container .footer_main_inf .footer_main_inf-header {
   font-size: 1.2vW;
   margin-bottom: 3%;
+}
+footer .container .footer_main_inf .footer_main_inf-text .footer_main_inf_project_head {
+  margin-bottom: 5%;
 }
 footer .container .admin {
   width: 17%;
