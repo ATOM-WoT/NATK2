@@ -32,6 +32,7 @@ h1{
   background: rgb(2, 43, 105) !important;
   height: 90px;
   z-index: 10;
+
 }
 .navigation_main_information .container .navigation_main_information_text {
   display: flex;

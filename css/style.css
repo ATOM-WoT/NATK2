@@ -6,7 +6,7 @@
 }
 
 html, body {
-  overflow-x: hidden;
+  margin: 0;
 }
 
 header {
@@ -229,7 +229,7 @@ main {
   z-index: 2;
 }
 
-.link-item:hover .link_text {
+.link-item:hover .link_text1 {
   opacity: 1;
 }
 
@@ -257,19 +257,18 @@ main {
 }
 .zero-block .container .zero-block_right_part .zero-block_information .wrap .zero-block_information_element-animation h2 {
   color: #000;
-  font-size: 3vw;
+  font-size: 2.4vw;
   font-weight: 600;
 }
 .zero-block .container .zero-block_right_part .zero-block_information .wrap .zero_block_poem {
   color: #000;
   font-family: "EB Garamond", Sans-serif;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
   font-weight: 600;
 }
 .zero-block .container .zero-block_right_part .zero-block_information .wrap .zero_block_poem .zero_block_autor {
   display: flex;
   justify-content: right;
-  text-decoration: underline;
 }
 .zero-block .container .zero-block_right_part .zero-block_information .wrap .zero-block_information_img {
   width: 40%;
@@ -288,7 +287,7 @@ main {
   /* Скроем элемент в начальном состоянии */
   opacity: 0;
   transform: translateY(20px);
-  color: #707b8e;
+  color: black;
 }
 
 .element-animation.element-show {
@@ -310,11 +309,13 @@ main {
 }
 .home_share_information_block .home_share_information_container_wrap .home_share_information_container_wrap_text {
   margin: 2% 0;
+  font-size: 1.3vW;
 }
 .home_share_information_block .home_share_information_container_wrap .home_share_information_container_wrap_text h3 {
   text-align: center;
   color: #000;
   font-weight: 600;
+  font-size: 2.4vW;
 }
 
 .modal-body .home-page_form .home-page_form_firstpart {
@@ -365,14 +366,17 @@ main {
   display: flex;
   justify-content: space-between;
   padding: 4%;
+  font-size: 1.2vW;
 }
 .first-block .container .first-block_right_part {
   margin-right: 2%;
   width: 50%;
 }
 .first-block .container .first-block_right_part .first-block_header {
-  font-size: 2rem;
+  font-size: 2.4rem;
   margin-bottom: 4%;
+  color: #000;
+  font-weight: 600;
 }
 .first-block .container .first-block_img {
   width: 50%;
@@ -380,11 +384,63 @@ main {
 .first-block .container .first-block_img img {
   width: 100%;
 }
+.first-block .container .first-block_img .first-block_img_siganture {
+  margin-top: 2%;
+  width: 100%;
+}
 .first-block .container .first-block_information-button {
   margin-top: 10px;
   display: flex;
 }
 .first-block .container .first-block_information-button a {
+  text-transform: uppercase;
+  border-radius: 20px;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  line-height: 40px;
+  height: 40px;
+  width: 170px;
+  background-color: rgb(2, 43, 105);
+}
+
+.first-block-onlytext {
+  background-color: rgba(134, 164, 200, 0.4);
+}
+.first-block-onlytext .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 4%;
+  font-size: 1.2vW;
+  text-align: justify;
+}
+
+.first-block_images {
+  background-color: rgba(134, 164, 200, 0.4);
+}
+.first-block_images .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 4%;
+  font-size: 1.2vW;
+}
+.first-block_images .container .first-block_img {
+  display: flex;
+}
+.first-block_images .container .first-block_img img {
+  height: 370px;
+  padding: 2%;
+}
+.first-block_images .container .first-block_img .first-block_img_siganture {
+  margin-top: 2%;
+  width: 100%;
+}
+.first-block_images .container .first-block_information-button {
+  margin-top: 10px;
+  display: flex;
+}
+.first-block_images .container .first-block_information-button a {
   text-transform: uppercase;
   border-radius: 20px;
   justify-content: center;
@@ -421,14 +477,15 @@ main {
   transform: translateY(-47px);
 }
 .second-block .container .second-block_header {
-  font-size: 2rem;
+  font-size: 2.4rem;
   margin-bottom: 4%;
+  font-weight: 600;
 }
 .second-block .container .second-block_img {
   width: 50%;
 }
 .second-block .container .second-block_img img {
-  width: 50%;
+  width: 90%;
 }
 .second-block .container .second-block_information-button {
   margin-top: 10px;
@@ -567,7 +624,6 @@ main {
 
 footer {
   padding: 3% 0;
-  height: 100%;
   color: white;
   background-color: #006ea6;
 }
@@ -576,7 +632,7 @@ footer .container {
   justify-content: space-between;
 }
 footer .container .social_media_history-museum {
-
+  width: 20%;
 }
 footer .container .social_media_history-museum .social_media_history-museum-header {
   font-size: 1.2vW;
@@ -612,6 +668,9 @@ footer .container .footer_main_inf .footer_main_inf-header {
 }
 footer .container .footer_main_inf .footer_main_inf-text {
   font-size: 1vw;
+}
+footer .container .footer_main_inf .footer_main_inf-text a {
+  color: white;
 }
 footer .container .admin {
   width: 17%;
@@ -673,12 +732,12 @@ footer .container .admin {
 .navigation_main_information {
   width: 100%;
   position: fixed;
+  top: 0;
   background: rgb(2, 43, 105) !important;
   height: 90px;
 }
 .navigation_main_information .container .navigation_main_information_text {
   display: flex;
-  justify-content: space-between;
   text-align: center;
 }
 .navigation_main_information .container .navigation_main_information_text .logo {
@@ -694,7 +753,7 @@ footer .container .admin {
 }
 .navigation_main_information .container .navigation_main_information_text ul li {
   list-style-type: none;
-  width: 150px;
+  width: 170px;
 }
 .navigation_main_information .container .navigation_main_information_text ul li a {
   color: #fff;
@@ -717,7 +776,10 @@ footer .container .admin {
   background-color: #006ea6 !important;
 }
 
-.main_information_blocks .container-fluid {
+.main_information_blocks {
+  margin-top: 100px;
+}
+.main_information_blocks .container {
   display: flex;
   padding: 2%;
 }
@@ -726,14 +788,13 @@ footer .container .admin {
   padding-top: 4%;
   display: flex;
   justify-content: right;
-  width: 12%;
-  position: fixed;
-  right: 3%;
+  border-right: 2px solid #022b69;
+  padding-right: 15px;
 }
 .main_information_navigation .main_information_navigation_yakors {
-  height: 100%;
+  /*height: 100%;
   border-right: #006ea6 solid 2px;
-  padding-right: 10%;
+  padding-right: 10%;*/
 }
 .main_information_navigation .main_information_navigation_yakors .link_yakor {
   display: flex;
